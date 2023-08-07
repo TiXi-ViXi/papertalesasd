@@ -18,11 +18,11 @@
     <div class="container">
     <div class="row">
     
-    @foreach($class as $key=>$row)
+    @foreach($results as $row)
     <div class="col-md-3">
     <h1>{{ $row->Book_Name }}<h1>
     <h1>{{ $row->Author_Name }}<h1>
-    <img src = "image/{{ $row->file_path }}" class="gridimage">
+    <img src = "image/{{ $row->file_path }}">
     <h1>{{ $row->Price }}<h1>
     <a href="{{route('class.delete' ,$row->id)}}" class = "btn btn-sm btn-danger">delete</a>
 </div>
