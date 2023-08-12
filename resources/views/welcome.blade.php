@@ -26,7 +26,7 @@
                 <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
                 
                     @auth
-                        <a href="{{ route('class.index') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Book Store</a>
+                        <a href="{{ route('dashboard') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Book Store</a>
                     @else
                         <a href="{{ route('login') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Log in</a>
                         
@@ -49,22 +49,22 @@
 					<input type="radio" class="three-d-bullet f" name="three-d">
 					<div class="three-d-cube">
 						<figure class="three-d-item">
-							<img src="{{asset('image/1.jpg')}}" alt=""><h1 class="NameImage">S. M. Mahmudul Hasan Rudra<br>Full Stack Developer</h1>
+							<img src="{{asset('image/1.jpg')}}" alt=""><h1 class="NameImage"><br></h1>
 						</figure>
 						<figure class="three-d-item">
-							<img src="{{asset('image/2.jpg')}}" alt=""><h1 class="NameImage">Tasmiah Tahrim<br>Creative Design Maker</h1>
+							<img src="{{asset('image/2.jpg')}}" alt=""><h1 class="NameImage"></h1>
 						</figure>
 						<figure class="three-d-item">
-							<img src="{{asset('image/3.jpg')}}" alt=""><h1 class="NameImage">Nirvik Guha Roy<br>Development And Management</h1>
+							<img src="{{asset('image/3.jpg')}}" alt=""><h1 class="NameImage"></h1>
 						</figure>
 						<figure class="three-d-item">
-							<img src="{{asset('image/4.jpg')}}"alt=""><h1 class="NameImage">Abdullah Al Maruf Prottoy<br>Developer</h1>
+							<img src="{{asset('image/4.jpg')}}"alt=""><h1 class="NameImage"></h1>
 						</figure>
 						<figure class="three-d-item">
-							<img src="{{asset('image/5.jpg')}}" alt=""><h1 class="NameImage">Zahrun Zannat Pian<br>Designer</h1>
+							<img src="{{asset('image/5.jpg')}}" alt=""><h1 class="NameImage"></h1>
 						</figure>
 						<figure class="three-d-item">
-							<img src="{{asset('image/6.jpg')}}" alt=""><h1 class="NameImage">Farhan Tanvir Fahim<br>Branding and Management</h1>
+							<img src="{{asset('image/6.jpg')}}" alt=""><h1 class="NameImage"></h1>
 						</figure>
 					</div>
 				</section>

@@ -7,3 +7,31 @@
     width: 150px;
     height: 200px;
   }
+
+.crosshair {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  pointer-events: none;
+  animation: pulse 2s infinite;
+  border: 14px solid rgb(255, 0, 0);
+  border-radius: 50%;
+  mix-blend-mode: difference;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes pulse {
+  0% {
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 0.7;
+  }
+  50% {
+      transform: translate(-50%, -50%) scale(1.3);
+      opacity: 0.3;
+  }
+  100% {
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 0.7;
+  }
+}

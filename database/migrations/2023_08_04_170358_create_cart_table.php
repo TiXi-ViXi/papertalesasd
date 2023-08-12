@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('cart', function (Blueprint $table) {
             $table->id();
+            $table->text('Book_Name');
+            $table->text('Author_Name');
+            $table->decimal('Price', 13, 2);
+            $table->string('file_path');
+            $table->integer('count')->default(1);
             $table->timestamps();
         });
     }
